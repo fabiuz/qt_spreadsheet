@@ -10,12 +10,14 @@ INCLUDEPATH += .
 HEADERS += mainwindow.h \
     finddialog.h \
     sortdialog.h \
-    gotocelldialog.h
+    gotocelldialog.h \
+    spreadsheet.h
 SOURCES += mainwindow.cpp \
     finddialog.cpp \
     sortdialog.cpp \
     gotocelldialog.cpp \
-    main.cpp
+    main.cpp \
+    spreadsheet.cpp
 RESOURCES = spreadsheet.qrc \
     spreadsheet.qrc
 
