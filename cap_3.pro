@@ -11,13 +11,15 @@ HEADERS += mainwindow.h \
     finddialog.h \
     sortdialog.h \
     gotocelldialog.h \
-    spreadsheet.h
+    spreadsheet.h \
+    cell.h
 SOURCES += mainwindow.cpp \
     finddialog.cpp \
     sortdialog.cpp \
     gotocelldialog.cpp \
     main.cpp \
-    spreadsheet.cpp
+    spreadsheet.cpp \
+    cell.cpp
 RESOURCES = spreadsheet.qrc \
     spreadsheet.qrc
 
